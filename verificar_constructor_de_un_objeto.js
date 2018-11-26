@@ -1,1 +1,4 @@
-{"index.js":"/* jshint expr: true */\n\n\nfunction House(numBedrooms) {\n  this.numBedrooms = numBedrooms;\n}\n\n// Add your code below this line\nlet myHouse = new House(5);\nmyHouse instanceof House;\n\n"}
+function House(numBedrooms) {
+     this.numBedrooms = numBedrooms;
+     let myHouse = new House(5);
+     nmyHouse instanceof House;}
