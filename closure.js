@@ -1,1 +1,6 @@
-{"index.js":"function Bird() { //CONSTRUCTOR\n  let weight=15;//VARIABLE CLOSURE\n  this.getWeight = function(){ //MÉTODO\n\n      return weight;\n\n  };  \n}\nlet peso=new Bird(); //CREACIÓN DEL OBJ\npeso.getWeight(); //APLIC DEL MÉTODO\n"}
+function Bird() { 
+      let weight=15;//VARIABLE CLOSURE\n  
+      this.getWeight = function(){ //MÉTODO\n\n      
+          return weight;  };  
+          let peso=new Bird(); //CREACIÓN DEL OBJ\npeso.getWeight(); //APLIC DEL MÉTODO\n"
+        }
