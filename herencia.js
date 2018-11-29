@@ -1,13 +1,22 @@
 function Cat(name) {
-     this.name = name; }
+     this.name = name; 
+};
      Cat.prototype = {
-    constructor: Cat, };
+    constructor: Cat, 
+    
+   
+};
     function Bear(name) {
-    this.name = name; }
+    this.name = name; 
+}
     Bear.prototype = {
-    constructor: Bear, };
-    function Animal() { }
+    constructor: Bear; 
+};
+   
+    
     Animal.prototype = {
     constructor: Animal,
     eat: function() {
-    console.log("nom nom nom");};
+    console.log("nom nom nom");
+    }
+};
